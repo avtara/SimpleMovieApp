@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Simple Movie App</string>
+    <string name="title">title</string>
+    <string name="lorem">lorem</string>
+    <string name="eng">eng</string>
+
+    <string-array name="data_title">
+        <item>A Star</item>
+        <item>Aquaman</item>
+        <item>Avenger Infinity</item>
+        <item>BirdBox</item>
+        <item>Bahemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed</item>
+        <item>Deadpool</item>
+        <item>Dragon</item>
+        <item>Dragon Ball</item>
+        <item>Glass</item>
+        <item>Hunter Killer</item>
+        <item>Marry Popins</item>
+        <item>Mortal Engine</item>
+        <item>Preman</item>
+        <item>Robin Hood</item>
+        <item>Spiderman</item>
+        <item>The Girl</item>
+        <item>The Mule</item>
+        <item>Venom</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>desc A Star</item>
+        <item>desc Aquaman</item>
+        <item>desc Avenger Infinity</item>
+        <item>desc BirdBox</item>
+        <item>desc Bahemian Rhapsody</item>
+        <item>desc Bumblebee</item>
+        <item>desc Creed</item>
+        <item>desc Deadpool</item>
+        <item>desc Dragon</item>
+        <item>desc Dragon Ball</item>
+        <item>desc Glass</item>
+        <item>desc Hunter Killer</item>
+        <item>desc Marry Popins</item>
+        <item>desc Mortal Engine</item>
+        <item>desc Preman</item>
+        <item>desc Robin Hood</item>
+        <item>desc Spiderman</item>
+        <item>desc The Girl</item>
+        <item>desc The Mule</item>
+        <item>desc Venom</item>
+    </string-array>
+
+    <array name="data_runtime">
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+        <item>2h 15m</item>
+    </array>
+
+    <array name="data_user_score">
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+        <item>9.0</item>
+    </array>
+
+    <array name="data_language">
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+        <item>English</item>
+    </array>
+
+    <array name="data_photo">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_mortalengine</item>
+        <item>@drawable/poster_preman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_spiderman</item>
+        <item>@drawable/poster_thegirl</item>
+        <item>@drawable/poster_themule</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+</resources>
