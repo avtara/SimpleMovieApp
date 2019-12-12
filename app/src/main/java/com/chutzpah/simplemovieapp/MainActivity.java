@@ -14,13 +14,12 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String TAG = "Main Activity";
     private MovieAdapter adapter;
     private String[] dataTitle;
     private String[] dataDescription;
     private String[] dataRuntime;
     private String[] dataLanguage;
-    private int[] dataUserScore;
+    private String[] dataUserScore;
     private TypedArray dataPhoto;
     private ArrayList<Movie> movies;
 
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         dataTitle = getResources().getStringArray(R.array.data_title);
         dataDescription = getResources().getStringArray(R.array.data_description);
         dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
-        dataUserScore = getResources().getIntArray(R.array.data_user_score);
+        dataUserScore = getResources().getStringArray(R.array.data_user_score);
         dataRuntime = getResources().getStringArray(R.array.data_runtime);
         dataLanguage = getResources().getStringArray(R.array.data_language);
     }
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         movies = new ArrayList<>();
 
 
-        for (int i = 0; i > dataTitle.length; i++){
+        for (int i = 0; i < dataTitle.length; i++){
             Movie movie = new Movie();
             movie.setPhoto(dataPhoto.getResourceId(i,-1));
             movie.setTitle(dataTitle[i]);

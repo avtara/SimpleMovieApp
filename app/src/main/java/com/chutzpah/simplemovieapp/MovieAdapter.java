@@ -47,7 +47,7 @@ public class MovieAdapter extends BaseAdapter {
 
         ViewHolder viewHolder = new ViewHolder(itemView);
 
-        Movie movie = (Movie)getItem(i);
+        Movie movie = (Movie) getItem(i);
         viewHolder.bind(movie);
         return itemView;
     }
@@ -62,6 +62,7 @@ public class MovieAdapter extends BaseAdapter {
             tvTitle = view.findViewById(R.id.tv_title);
             tvDescription = view.findViewById(R.id.tv_description);
             tvUserScore = view.findViewById(R.id.tv_user_score);
+            imgPhoto = view.findViewById(R.id.img_photo);
         }
 
         void bind(Movie movie){

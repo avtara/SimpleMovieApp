@@ -34,11 +34,11 @@ public class Movie {
         this.runtime = runtime;
     }
 
-    public int getUser_score() {
+    public String getUser_score() {
         return user_score;
     }
 
-    public void setUser_score(int user_score) {
+    public void setUser_score(String user_score) {
         this.user_score = user_score;
     }
 
@@ -54,7 +54,7 @@ public class Movie {
     private String title;
     private String description;
     private String runtime;
-    private int user_score;
+    private String user_score;
     private String language;
 
 }
